@@ -1,0 +1,194 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.navbar{
+    
+    border: 2px solid #000; /* border around navbar */
+    padding: 10px;          /* space inside border */
+}
+
+.navbara{
+    font-weight: bold;
+}
+
+
+
+.nav_list {
+    display: flex;               /* Layout items in a row */
+    justify-content: center;     /* Center items */
+    list-style: none;            /* Remove bullets */
+    padding: 10px 15px;          /* Space inside border */
+    border: 2px solid #000;      /* Single border around all */
+    gap: 20px;                   /* Space between items */
+    margin: 0;
+    padding: 0;
+}
+
+.nav_list li {
+    
+    padding: 2px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* change depending on image */
+}
+
+
+
+
+
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #333;
+    width: 200px;
+    text-align: center;
+  }
+
+.logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border: 2px solid #333;
+  border-radius: 50%;     /* Makes it round */  
+  justify-content: center;   /* Center horizontally */
+  align-items: center;    /* Center the whole div */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.edit {
+    display: flex;
+    
+    gap: 20px;
+    justify-content: center; /* center whole block */
+}
+
+
+
+
+.item {
+  text-align: center; /* center text under icon */
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px auto; /* center circle */
+  margin-top: 20px;
+}
+
+
+.easy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.easy h6{
+    display: inline;
+    text-transform: uppercase;
+}
+.easy p{
+    max-width: 200px;
+    display: inline;
+    justify-content: center;
+    align-items: centers;
+    text-transform: capitalize;
+
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    top: 20px;
+
+}
+
+h6 {
+    text-align: center;
+}
+
+.text_wrapper p{
+    
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.text_wrapper {
+    
+    padding: 20px;
+
+    
+    
+}
